@@ -18,6 +18,7 @@
 		730D798C146E051B0098A4D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730D7973146E051B0098A4D8 /* Foundation.framework */; };
 		730D7994146E051B0098A4D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 730D7992146E051B0098A4D8 /* InfoPlist.strings */; };
 		730D7997146E051B0098A4D8 /* Test1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 730D7996146E051B0098A4D8 /* Test1Tests.m */; };
+		F106EE5E146E161D00946D4B /* MyCocos2DClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F106EE5D146E161D00946D4B /* MyCocos2DClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,8 @@
 		730D7993146E051B0098A4D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		730D7995146E051B0098A4D8 /* Test1Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test1Tests.h; sourceTree = "<group>"; };
 		730D7996146E051B0098A4D8 /* Test1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test1Tests.m; sourceTree = "<group>"; };
+		F106EE5C146E161D00946D4B /* MyCocos2DClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCocos2DClass.h; sourceTree = "<group>"; };
+		F106EE5D146E161D00946D4B /* MyCocos2DClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCocos2DClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,8 @@
 		730D7962146E051B0098A4D8 = {
 			isa = PBXGroup;
 			children = (
+				F106EE5C146E161D00946D4B /* MyCocos2DClass.h */,
+				F106EE5D146E161D00946D4B /* MyCocos2DClass.m */,
 				730D7977146E051B0098A4D8 /* Test1 */,
 				730D798F146E051B0098A4D8 /* Test1Tests */,
 				730D7970146E051B0098A4D8 /* Frameworks */,
@@ -251,6 +256,7 @@
 			files = (
 				730D797E146E051B0098A4D8 /* main.m in Sources */,
 				730D7982146E051B0098A4D8 /* KDAppDelegate.m in Sources */,
+				F106EE5E146E161D00946D4B /* MyCocos2DClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +420,7 @@
 				730D799C146E051B0098A4D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		730D799D146E051B0098A4D8 /* Build configuration list for PBXNativeTarget "Test1Tests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				730D799F146E051B0098A4D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
